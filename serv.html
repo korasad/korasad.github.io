@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewCP</title>
+    <link href="css/general.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="img/faviconServ.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="header_all">
+        <a class="head_img" href="#" style="float:left; margin-top:2px; margin-right:50px; "><img src="img/NewCP.png" width="40" height="40"></a>
+        <div class="mobile_menu">
+            <button class="mobile_menu_button">
+                <span class="mobile_menu_line top_line"></span>
+                <span class="mobile_menu_line middle_line"></span>
+                <span class="mobile_menu_line bottom_line"></span>
+            </button>
+        </div>
+        <ul class="header_menu">
+            <li><a href="main.html">Главная</a></li>
+            <li><a href="arm.html">ARM</a></li>
+            <li><a href="center.html">Центральные</a></li>
+            <li><a href="graf.html">Графические</a></li>
+            <li><a class="active_link" href="#">Серверные</a></li>
+            <li><a href="kont.html">Контакты</a></li>
+        </ul>
+    </header>
+    
+    <main>
+        <div class="wrap_title">
+            <h1>Серверные процессоры</h1>
+        </div>
+
+        <div class="wrap consoles">
+            <div class="console pop_up_element">
+                <div class="console_title">
+                    
+                    <h2>Общая информация</h2>
+                </div>
+                <div class="console_images">
+                    <button class="image_arrow arrow_left"><img src="img/arrow-left.svg" alt="стрелка влево"></button>
+                    <button class="image_arrow arrow_right"><img src="img/arrow-right.svg" alt="стрелка вправо"></button>
+
+                    <div class="images_container">
+                        <img src="img/Serv.jpg" alt="serv">
+                    </div>
+                </div>
+                <div class="console_text">
+                <p>
+                    Предлагаю рассмотреть серверные процессоры. Такие процессоры обеспечивают все суперкомпьютеры в мире и делают нашу жизнь проще. Для серверного процессора одними из самых важных условий - это живучесть и производительность.  
+                </p>
+                <p> Основные направления работы серверного процессора:
+                    <ul>
+                        <li>&#8226; позволяют максимально надежно и эффективно хранить и обрабатывать солидные объемы данных, проводить сложные расчеты даже при работе большого числа клиентов одновременно при запуске ресурсозатратных приложений в фоновом режиме. При этом не происходит нарушения целостности самой обрабатываемой информации. Особенно важен такой момент, как соблюдение целостности больших массивов данных даже во время пиковых нагрузок и длительных системных сбоев;</li>
+                        <li>&#8226; сервера работают на базе приложений и программ, которые очень требовательны к ресурсам, чтобы быстро и качественно выполнять сложные научные, математические, статистические расчеты. В итоге вы получаете ощутимую экономию из-за того, что не придется приобретать мощные и дорогие компьютеры, так же суммарные потребности в электроэнергии в случае с сервером будут ниже.</li>
+                        <li>&#8226; в большинстве случаев ваш сервер – мощный терминал. Поэтому работа требует установки специально разработанного программного обеспечения;</li>
+                        <li>&#8226; снижение расходов можно добиться за счет того, то несколько компьютеров потребуют дорогостоящего обслуживания. Особенно большую проблему составляет обновление сложного программного обеспечения, поиск и исправление неизбежно возникающих в их работе ошибок. Сервер все это делает в автоматическом режиме за счет специального инструмента ECC.</li>
+                    </ul>
+                </p>
+                <br>
+                </div>
+                
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <script src="js/serv.js"></script>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-center">
+                        Комментарии
+                    </h2>
+                </div>
+                <div class="col-lg-6">
+                    <div id="comment-field"></div>
+                </div>
+                <div class="col-lg-6">
+                        <form>
+                                <div class="form-group">
+                                <label for="comment-name">Как вас зовут?</label>
+                                <input type="email" class="form-control" id="comment-name"  placeholder="Введите свое имя">
+                                </div>
+                                <div class="form-group">
+                                <label for="comment-body">Поделитесь своим мнением:</label>
+                                <textarea type="password" class="form-control" id="comment-body" placeholder="Комментарий"></textarea>
+                                </div>
+                                <div class="form-group form-check text-right">
+                                        <button type="submit" id="comment-add" class="btn btn-primary">Добавить</button>
+                                </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="js/com.js"></script>
+    <a href="#" title="Вернуться к началу" class="topbutton">&#8593;</a>
+    <footer>
+        <h4 id="kont" style="font-size: 15px;">Разработчик</h4>
+		<adress style="font-size: 15px; "> <a1 href="https://vk.com/korasad">Федоров Дмитрий, 2021 год</a1> </adress>
+	</footer>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
