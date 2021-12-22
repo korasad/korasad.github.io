@@ -48,7 +48,10 @@ h2 {
     font-size: 2.6em;
 }
 
-
+.lin
+{
+    display: inline-block;
+}
 
 .four span {
 	color: #ff0000;
